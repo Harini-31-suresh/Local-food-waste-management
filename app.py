@@ -10,8 +10,6 @@ Original file is located at
 from google.colab import files
 uploaded = files.upload()
 
-!pip install pandas streamlit plotly
-
 import pandas as pd
 
 providers = pd.read_csv("providers_data.csv")
