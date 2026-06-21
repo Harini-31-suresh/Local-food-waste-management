@@ -1,5 +1,4 @@
-from google.colab import files
-uploaded = files.upload()
+
 # %%writefile app.py
 # %%writefile requirements.txt
 import streamlit as st
